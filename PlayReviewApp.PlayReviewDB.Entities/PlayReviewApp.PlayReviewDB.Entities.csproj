@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\Category.cs" />
+    <Compile Include="Concrete\News.cs" />
+    <Compile Include="Concrete\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+    <ProjectReference Include="..\PlayReviewApp.Core\PlayReviewApp.Core.csproj">
+      <Project>{A00BA08D-9826-48B2-904B-4C32FF7CC134}</Project>
+      <Name>PlayReviewApp.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
