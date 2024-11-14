@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.Entities", "PlayReviewApp.PlayReviewDB.Entities\PlayReviewApp.PlayReviewDB.Entities.csproj", "{997C410C-2047-49D4-8879-C5AFB0AC4645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.DataAccess", "PlayReviewApp.PlayReviewDB.DataAccess\PlayReviewApp.PlayReviewDB.DataAccess.csproj", "{21BB693D-2A61-456E-A934-5F008AD04431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.Business", "PlayReviewApp.PlayReviewDB.Business\PlayReviewApp.PlayReviewDB.Business.csproj", "{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.Core", "PlayReviewApp.Core\PlayReviewApp.Core.csproj", "{A00BA08D-9826-48B2-904B-4C32FF7CC134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.WebUI", "PlayReviewApp.PlayReviewDB.WebUI\PlayReviewApp.PlayReviewDB.WebUI.csproj", "{99C6A6DF-7D65-452C-9E88-3466D138DDF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BB693D-2A61-456E-A934-5F008AD04431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BB693D-2A61-456E-A934-5F008AD04431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BB693D-2A61-456E-A934-5F008AD04431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BB693D-2A61-456E-A934-5F008AD04431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77DF83D5-9F21-464D-811D-A1127972D53E}
+	EndGlobalSection
+EndGlobal
