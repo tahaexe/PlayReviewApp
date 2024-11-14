@@ -3,8 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\taakt\\Web\\GitHub\\PlayReviewApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99C6A6DF-7D65-452C-9E88-3466D138DDF4}|PlayReviewApp.PlayReviewDB.WebUI\\PlayReviewApp.PlayReviewDB.WebUI.csproj|c:\\users\\taakt\\web\\github\\playreviewapp\\playreviewapp.playreviewdb.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99C6A6DF-7D65-452C-9E88-3466D138DDF4}|PlayReviewApp.PlayReviewDB.WebUI\\PlayReviewApp.PlayReviewDB.WebUI.csproj|solutionrelative:playreviewapp.playreviewdb.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taakt\\Web\\GitHub\\DevFramework\\DevFramework.Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00BA08D-9826-48B2-904B-4C32FF7CC134}|PlayReviewApp.Core\\PlayReviewApp.Core.csproj|c:\\users\\taakt\\web\\github\\playreviewapp\\playreviewapp.core\\dataaccess\\entityframework\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00BA08D-9826-48B2-904B-4C32FF7CC134}|PlayReviewApp.Core\\PlayReviewApp.Core.csproj|solutionrelative:playreviewapp.core\\dataaccess\\entityframework\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\taakt\\Web\\GitHub\\DevFramework\\DevFramework.Core\\DataAccess\\IEntityRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +25,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\taakt\\Web\\GitHub\\PlayReviewApp\\PlayReviewApp.PlayReviewDB.WebUI\\Program.cs",
-              "RelativeDocumentMoniker": "PlayReviewApp.PlayReviewDB.WebUI\\Program.cs",
-              "ToolTip": "C:\\Users\\taakt\\Web\\GitHub\\PlayReviewApp\\PlayReviewApp.PlayReviewDB.WebUI\\Program.cs",
-              "RelativeToolTip": "PlayReviewApp.PlayReviewDB.WebUI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\taakt\\Web\\GitHub\\DevFramework\\DevFramework.Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "..\\DevFramework\\DevFramework.Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\taakt\\Web\\GitHub\\DevFramework\\DevFramework.Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "..\\DevFramework\\DevFramework.Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:12:22.046Z",
+              "WhenOpened": "2024-11-14T01:56:28.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\taakt\\Web\\GitHub\\PlayReviewApp\\PlayReviewApp.Core\\DataAccess\\EntityFramework\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "PlayReviewApp.Core\\DataAccess\\EntityFramework\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\taakt\\Web\\GitHub\\PlayReviewApp\\PlayReviewApp.Core\\DataAccess\\EntityFramework\\IEntityRepository.cs",
+              "RelativeToolTip": "PlayReviewApp.Core\\DataAccess\\EntityFramework\\IEntityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:55:30.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\taakt\\Web\\GitHub\\DevFramework\\DevFramework.Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "..\\DevFramework\\DevFramework.Core\\DataAccess\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\taakt\\Web\\GitHub\\DevFramework\\DevFramework.Core\\DataAccess\\IEntityRepository.cs",
+              "RelativeToolTip": "..\\DevFramework\\DevFramework.Core\\DataAccess\\IEntityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:55:06.449Z",
               "EditorCaption": ""
             }
           ]
