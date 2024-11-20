@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlayReviewApp.PlayReviewDB.Entities.Concrete
+namespace PlayReviewApp.PlayReviewDb.Entities.Concrete
 {
       public class Category : IEntity
       {

@@ -1,0 +1,17 @@
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.csproj.AssemblyReference.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.AssemblyInfoInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.AssemblyInfo.cs
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.deps.json
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.Core.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.Core.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayRevi.EAAA300E.Up2Date
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\refint\PlayReviewApp.PlayReviewDb.DataAccess.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.DataAccess\obj\Debug\net8.0\ref\PlayReviewApp.PlayReviewDb.DataAccess.dll

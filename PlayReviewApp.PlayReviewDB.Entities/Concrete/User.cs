@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace PlayReviewApp.PlayReviewDB.Entities.Concrete
+namespace PlayReviewApp.PlayReviewDb.Entities.Concrete
 {
       public class User : IEntity
       {

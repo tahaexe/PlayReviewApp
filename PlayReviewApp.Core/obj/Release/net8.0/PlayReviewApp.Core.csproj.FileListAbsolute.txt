@@ -1,0 +1,12 @@
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\bin\Release\net8.0\PlayReviewApp.Core.deps.json
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\bin\Release\net8.0\PlayReviewApp.Core.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\bin\Release\net8.0\PlayReviewApp.Core.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.csproj.AssemblyReference.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.AssemblyInfoInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.AssemblyInfo.cs
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\refint\PlayReviewApp.Core.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\PlayReviewApp.Core.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Release\net8.0\ref\PlayReviewApp.Core.dll

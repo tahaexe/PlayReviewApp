@@ -1,0 +1,15 @@
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\bin\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.deps.json
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\bin\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\bin\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\bin\Release\net8.0\PlayReviewApp.Core.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\bin\Release\net8.0\PlayReviewApp.Core.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.csproj.AssemblyReference.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.AssemblyInfoInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.AssemblyInfo.cs
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.csproj.CoreCompileInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayRevi.A6AC4F06.Up2Date
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\refint\PlayReviewApp.PlayReviewDb.Entities.dll
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\PlayReviewApp.PlayReviewDb.Entities.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Release\net8.0\ref\PlayReviewApp.PlayReviewDb.Entities.dll

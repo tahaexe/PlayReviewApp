@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\PlayReviewApp.PlayReviewDB.WebUI.props" />
-</Project>

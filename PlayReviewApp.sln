@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.Entities", "PlayReviewApp.PlayReviewDB.Entities\PlayReviewApp.PlayReviewDB.Entities.csproj", "{997C410C-2047-49D4-8879-C5AFB0AC4645}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDb.PlayReviewWebUI", "PlayReviewApp.PlayReviewDb.PlayReviewWebUI\PlayReviewApp.PlayReviewDb.PlayReviewWebUI.csproj", "{3439DDCF-652D-4727-9A9F-811B200890E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.DataAccess", "PlayReviewApp.PlayReviewDB.DataAccess\PlayReviewApp.PlayReviewDB.DataAccess.csproj", "{21BB693D-2A61-456E-A934-5F008AD04431}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.Core", "PlayReviewApp.Core\PlayReviewApp.Core.csproj", "{7C59E5AD-7C6E-4D44-A059-D95716910A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.Business", "PlayReviewApp.PlayReviewDB.Business\PlayReviewApp.PlayReviewDB.Business.csproj", "{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDb.Business", "PlayReviewApp.PlayReviewDb.Business\PlayReviewApp.PlayReviewDb.Business.csproj", "{B39F93D1-95C0-4E39-B0D4-BC2BBEADD9AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.Core", "PlayReviewApp.Core\PlayReviewApp.Core.csproj", "{A00BA08D-9826-48B2-904B-4C32FF7CC134}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDb.DataAccess", "PlayReviewApp.PlayReviewDb.DataAccess\PlayReviewApp.PlayReviewDb.DataAccess.csproj", "{574A8771-06AC-4DFF-BDD5-E2C4722F86D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDB.WebUI", "PlayReviewApp.PlayReviewDB.WebUI\PlayReviewApp.PlayReviewDB.WebUI.csproj", "{99C6A6DF-7D65-452C-9E88-3466D138DDF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayReviewApp.PlayReviewDb.Entities", "PlayReviewApp.PlayReviewDb.Entities\PlayReviewApp.PlayReviewDb.Entities.csproj", "{FF2314B3-4382-4BF7-9431-713C8FAB2790}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,31 +19,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{997C410C-2047-49D4-8879-C5AFB0AC4645}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21BB693D-2A61-456E-A934-5F008AD04431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21BB693D-2A61-456E-A934-5F008AD04431}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21BB693D-2A61-456E-A934-5F008AD04431}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21BB693D-2A61-456E-A934-5F008AD04431}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3381A669-D2C1-4775-BFB5-AA4AC5A3D615}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A00BA08D-9826-48B2-904B-4C32FF7CC134}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99C6A6DF-7D65-452C-9E88-3466D138DDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3439DDCF-652D-4727-9A9F-811B200890E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3439DDCF-652D-4727-9A9F-811B200890E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3439DDCF-652D-4727-9A9F-811B200890E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3439DDCF-652D-4727-9A9F-811B200890E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C59E5AD-7C6E-4D44-A059-D95716910A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C59E5AD-7C6E-4D44-A059-D95716910A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C59E5AD-7C6E-4D44-A059-D95716910A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C59E5AD-7C6E-4D44-A059-D95716910A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B39F93D1-95C0-4E39-B0D4-BC2BBEADD9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39F93D1-95C0-4E39-B0D4-BC2BBEADD9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39F93D1-95C0-4E39-B0D4-BC2BBEADD9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39F93D1-95C0-4E39-B0D4-BC2BBEADD9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574A8771-06AC-4DFF-BDD5-E2C4722F86D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574A8771-06AC-4DFF-BDD5-E2C4722F86D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574A8771-06AC-4DFF-BDD5-E2C4722F86D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574A8771-06AC-4DFF-BDD5-E2C4722F86D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2314B3-4382-4BF7-9431-713C8FAB2790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2314B3-4382-4BF7-9431-713C8FAB2790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2314B3-4382-4BF7-9431-713C8FAB2790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2314B3-4382-4BF7-9431-713C8FAB2790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {77DF83D5-9F21-464D-811D-A1127972D53E}
+		SolutionGuid = {5C49E995-87FB-48EE-92F8-7904E9278101}
 	EndGlobalSection
 EndGlobal
