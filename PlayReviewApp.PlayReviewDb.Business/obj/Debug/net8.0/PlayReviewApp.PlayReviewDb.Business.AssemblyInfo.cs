@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlayReviewApp.PlayReviewDb.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e01a4240617e7f16740badffac66e31358ef8e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlayReviewApp.PlayReviewDb.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlayReviewApp.PlayReviewDb.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

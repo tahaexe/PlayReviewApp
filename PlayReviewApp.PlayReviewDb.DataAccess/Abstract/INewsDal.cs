@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace PlayReviewApp.PlayReviewDb.DataAccess.Abstract
 {
-      public interface INewsDal : IEntityRepository<News>
-      {
-            List<NewsDetail> NewsDetails();
-      }
+    public interface INewsDal : IEntityRepository<News>
+    {
+        List<News> GetTopNItems(int n);
+        List<NewsDetail> NewsDetails();
+    }
 }

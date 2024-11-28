@@ -1,8 +1,3 @@
-C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.csproj.AssemblyReference.cache
-C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.AssemblyInfoInputs.cache
-C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.AssemblyInfo.cs
-C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.csproj.CoreCompileInputs.cache
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.deps.json
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.dll
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.pdb
@@ -12,6 +7,12 @@ C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.DataAccess.pdb
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.pdb
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\bin\Debug\net8.0\PlayReviewApp.Core.pdb
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.csproj.AssemblyReference.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.AssemblyInfoInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.AssemblyInfo.cs
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.csproj.CoreCompileInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.sourcelink.json
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayRevi.88D40991.Up2Date
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Business.dll
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Business\obj\Debug\net8.0\refint\PlayReviewApp.PlayReviewDb.Business.dll

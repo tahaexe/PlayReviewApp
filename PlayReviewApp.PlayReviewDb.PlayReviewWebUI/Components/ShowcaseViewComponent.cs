@@ -12,12 +12,13 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Components
             _serviceManager = serviceManager;
         }
 
-        public IViewComponentResult Invoke(string page = "default")
+        public IViewComponentResult Invoke()
         {
-            var allNews = _serviceManager.NewsService.GetAll();
-            return page.Equals("default")
-            ? View(allNews)
-            : View("list", allNews);
+            var allNews = _serviceManager.NewsService.GetTopNItems(15);
+            return View(allNews);
+            //return page.Equals("default")
+            //? View(allNews)
+            //: View("list", allNews);
         }
     }
 }

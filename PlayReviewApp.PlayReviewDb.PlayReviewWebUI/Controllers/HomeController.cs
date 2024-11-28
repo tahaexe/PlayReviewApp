@@ -7,20 +7,10 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-        private readonly INewsService _newsService;
-
-        public HomeController(ILogger<HomeController> logger, INewsService newsService)
-        {
-            _logger = logger;
-            _newsService = newsService;
-        }
 
         public IActionResult Index()
         {
-            var news = _newsService.GetAll();
-
-            return View(news);
+            return View();
         }
 
         public IActionResult Privacy()

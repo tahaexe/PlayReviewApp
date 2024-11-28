@@ -17,6 +17,14 @@ namespace PlayReviewApp.PlayReviewDb.DataAccess.Concrete.EntityFramework
 
         }
 
+        public List<News> GetTopNItems(int n)
+        {
+            return _context.News
+                        .OrderBy(e => e.NewsId)
+                        .Take(n)
+                        .ToList();
+        }
+
         public List<NewsDetail> NewsDetails()
         {
             var result = from n in _context.News
@@ -29,7 +37,6 @@ namespace PlayReviewApp.PlayReviewDb.DataAccess.Concrete.EntityFramework
                              NewsTitle = n.Title
                          };
             return result.ToList();
-
         }
     }
 }

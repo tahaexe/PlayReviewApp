@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,7 @@ namespace PlayReviewApp.PlayReviewDb.Business.Abstract
     {
         INewsService NewsService { get; }
         ICategoryService CategoryService { get; }
-        IUserService UserService { get; }
+        UserManager<IdentityUser> UserManager { get; }
+        SignInManager<IdentityUser> SignInManager { get; }
     }
 }

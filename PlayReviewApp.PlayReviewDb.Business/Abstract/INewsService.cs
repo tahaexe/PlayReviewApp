@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace PlayReviewApp.PlayReviewDb.Business.Abstract
 {
-      public interface INewsService
-      {
-            List<News> GetAll();
-            News GetById(int id);
-            void Add(News news);
-            void Update(News news);
-            void Delete(News news);
-      }
+    public interface INewsService
+    {
+        List<News> GetAll();
+        List<News> GetTopNItems(int n);
+        News GetById(int id);
+        void Add(News news);
+        void Update(News news);
+        void Delete(News news);
+    }
 }

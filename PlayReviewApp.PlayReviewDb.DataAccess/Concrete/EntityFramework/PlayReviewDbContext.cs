@@ -18,6 +18,5 @@ namespace PlayReviewApp.PlayReviewDb.DataAccess.Concrete.EntityFramework
 
         public DbSet<News> News { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<User> Users { get; set; }
     }
 }

@@ -3,6 +3,8 @@ using PlayReviewApp.PlayReviewDb.DataAccess.Concrete.EntityFramework;
 using PlayReviewApp.PlayReviewDb.Business.Abstract;
 using PlayReviewApp.PlayReviewDb.Business.Concrete;
 using PlayReviewApp.PlayReviewDb.DataAccess.Abstract;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Infrastructure.Extensions
 {
@@ -13,15 +15,50 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Infrastructure.Extensions
             services.AddDbContext<PlayReviewDbContext>(options =>
             {
                 options.UseSqlServer(configuration.GetConnectionString("mssqlconnection"),
-                b => b.MigrationsAssembly("PlayReviewWebUI"));
+                    b => b.MigrationsAssembly("PlayReviewApp.PlayReviewDb.PlayReviewWebUI"));
+            });
+        }
 
-                options.EnableSensitiveDataLogging(true);
+        public static void ConfigureIdentity(this IServiceCollection services)
+        {
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.SignIn.RequireConfirmedEmail = true;
+                options.User.RequireUniqueEmail = true;
+            })
+            .AddEntityFrameworkStores<PlayReviewDbContext>()
+            .AddDefaultTokenProviders();
+        }
+
+        public static void ConfigureSession(this IServiceCollection services)
+        {
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.Cookie.Name = "PlayReviewSession";
+                options.IdleTimeout = TimeSpan.FromMinutes(10);
+            });
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        }
+
+        public static void ConfigureApplicationCookie(this IServiceCollection services)
+        {
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = new PathString("/Account/Login");
+                options.LogoutPath = new PathString("/Account/Logout");
+                options.AccessDeniedPath = new PathString("/Account/AccessDenied");
+                options.ReturnUrlParameter = CookieAuthenticationDefaults.ReturnUrlParameter;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(10);                
             });
         }
 
         public static void ConfigureServiceRegistration(this IServiceCollection services)
         {
-            services.AddScoped<IUserService, UserManager>();
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<INewsService, NewsManager>();
             services.AddScoped<IServiceManager, ServiceManager>();
@@ -30,7 +67,6 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Infrastructure.Extensions
         public static void ConfigureRepositoryRegistration(this IServiceCollection services)
         {
             services.AddScoped<ICategoryDal, EfCategoryDal>();
-            services.AddScoped<IUserDal, EfUserDal>();
             services.AddScoped<INewsDal, EfNewsDal>();
         }
     }

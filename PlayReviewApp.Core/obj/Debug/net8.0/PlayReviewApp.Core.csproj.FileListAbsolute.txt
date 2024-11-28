@@ -6,6 +6,7 @@ C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\Play
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\PlayReviewApp.Core.AssemblyInfoInputs.cache
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\PlayReviewApp.Core.AssemblyInfo.cs
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\PlayReviewApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\PlayReviewApp.Core.sourcelink.json
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\PlayReviewApp.Core.dll
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\refint\PlayReviewApp.Core.dll
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.Core\obj\Debug\net8.0\PlayReviewApp.Core.pdb

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<News>
+
+<div class="my-3">
+    <h5 class="text-center bg-danger bg-opacity-80 p-3 rounded text-white">
+        <i class="fa-solid fa-fire-flame-curved"></i>
+        Popular Games
+    </h5>
+    <hr class="border border-danger border-2 opacity-70">
+</div>
+
+<div class="my-2">
+    @foreach (var popularNews in Model)
+    {
+        <div class="form-group my-2">
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+                <!-- Resim -->
+                <div class="card-img-top position-relative">
+                    <img src="@popularNews.ImageUrl" class="img-fluid" alt="Image for @popularNews.Title">
+                    <div class="position-absolute bottom-0 start-0 w-100 bg-dark text-white" style="opacity: 0.8;">
+                        <h5 class="fs-6 text-center">@popularNews.Title</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

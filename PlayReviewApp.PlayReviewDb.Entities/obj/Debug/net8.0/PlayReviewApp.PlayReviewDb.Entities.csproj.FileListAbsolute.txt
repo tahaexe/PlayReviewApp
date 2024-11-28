@@ -8,6 +8,7 @@ C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.AssemblyInfoInputs.cache
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.AssemblyInfo.cs
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.csproj.CoreCompileInputs.cache
+C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.sourcelink.json
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\PlayRevi.A6AC4F06.Up2Date
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\PlayReviewApp.PlayReviewDb.Entities.dll
 C:\Users\taakt\Web\GitHub\PlayReviewApp\PlayReviewApp.PlayReviewDb.Entities\obj\Debug\net8.0\refint\PlayReviewApp.PlayReviewDb.Entities.dll
