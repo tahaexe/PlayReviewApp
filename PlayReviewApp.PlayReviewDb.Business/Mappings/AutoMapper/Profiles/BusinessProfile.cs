@@ -18,6 +18,10 @@ namespace PlayReviewApp.PlayReviewDb.Business.Mappings.AutoMapper.Profiles
             CreateMap<UserDtoForUpdate, IdentityUser>().ReverseMap();
 
             CreateMap<NewsDtoForUpdate, News>().ReverseMap();
+
+            CreateMap<News, NewsDtoForGet>();
+
+            CreateMap<News, NewsDtoForCreate>();
         }
     }
 }
