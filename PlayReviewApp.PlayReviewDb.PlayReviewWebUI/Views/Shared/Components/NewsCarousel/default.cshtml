@@ -1,0 +1,30 @@
+﻿@model List<News>
+
+<div class="row">
+    <div class="col-md-12">
+        <!-- Carousel Section -->
+        <div id="carouselExample" class="carousel slide rounded shadow-lg" data-bs-ride="carousel">
+            <div class="carousel-inner rounded" style="height: 550px; overflow: hidden;">
+                @foreach (var newsItem in Model)
+                {
+                    <div class="carousel-item @((Model.IndexOf(newsItem) == 0) ? "active" : "")">
+                        <img src="@newsItem.ImageUrl" class="d-block w-100 rounded" alt="@newsItem.Title" style="height: 100%; object-fit: cover;">
+                        <div class="carousel-caption d-flex justify-content-center align-items-center" style="position: absolute; bottom: 30%; left: 10px; right: 10px; background: rgba(0, 0, 0, 0.5); padding: 15px; border-radius: 5px; z-index: 10;">
+                            <h5 class="text-white">@newsItem.Title</h5>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>

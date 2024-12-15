@@ -1,0 +1,82 @@
+﻿@model List<News>
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">News</h3>
+    </div>
+
+    <div class="d-flex justify-content-start my-3 ml-3 ">
+        <div class="btn-group ">
+            <a class="btn btn-outline-success " asp-area="Admin" asp-controller="News" asp-action="Create">
+                <i class="fa fa-solid fa-plus"></i>
+                Create News
+            </a>
+        </div>
+    </div>
+
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table id="NewsTable" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Author</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (News newsData in Model)
+                {
+                    <tr>
+                        <td>@newsData?.Title</td>
+                        <td>
+                            @newsData?.Description
+                        </td>
+                        <td><span class="badge bg-danger">@newsData?.Author</span></td>
+                        <td>
+                            <div class="btn-group text-center">
+
+                                <a class="btn btn-warning rounded-0" asp-action="Update" asp-route-id="@newsData?.NewsId">
+                                    <i class="fa fa-solid fa-pen text-white"></i>
+                                    Update
+                                </a>
+
+                                <a class="btn btn-info rounded-0" asp-area="" asp-controller="News" asp-action="Get" asp-route-id="@newsData?.NewsId">
+                                    <i class="fa fa-solid fa-eye"></i>
+                                    Details
+                                </a>
+
+                                <a class="btn btn-danger rounded-0" asp-action="Delete" asp-route-id="@newsData?.NewsId"
+                                   onclick="return confirmDelete()">
+                                    <i class="fa fa-solid fa-trash"></i>
+                                    Delete
+                                </a>
+
+                            </div>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- /.card-body -->
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $("#NewsTable").DataTable({
+                "responsive": true,
+                "lengthChange": false,
+                "autoWidth": false,
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#NewsTable_wrapper .col-md-6:eq(0)');
+        });
+
+            function confirmDelete() {
+            return confirm("Are you sure you want to delete this item?");
+        }
+    </script>
+}

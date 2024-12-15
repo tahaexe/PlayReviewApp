@@ -1,0 +1,20 @@
+﻿@model News
+
+<div class="col-sm-12 col-md-4 my-2">
+    <div class="card border-0" style="width: 18rem;">
+        <a asp-controller="News" asp-action="Get" asp-route-id="@Model?.NewsId" class="text-decoration-none text-body">
+            @* <div class="card-header text-center d-flex justify-content-center align-items-center" style="height: 75px;">
+                @Model.Title
+            </div> *@
+            <img src="@Model?.ImageUrl" class="card-img-top" alt="@Model?.Title">
+
+            <div class="card-body">
+                <div class="card-text">
+                    <div class="text-danger text-center lead p-2 rounded-2">
+                    </div>
+                </div>
+                <p class="card-text">@Model?.Description</p>
+            </div>
+        </a>
+    </div>
+</div>

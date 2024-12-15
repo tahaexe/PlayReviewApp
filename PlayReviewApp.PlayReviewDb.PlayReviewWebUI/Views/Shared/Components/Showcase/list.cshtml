@@ -1,0 +1,31 @@
+﻿@model IEnumerable<News>
+
+<div class="mt-5 text-center border-bottom">
+    <h6 class="display-6">Products</h6>
+</div>
+
+<div class="row">
+    @foreach (News newsItem in Model)
+    {
+        <div class="col-md-3 my-3">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="@newsItem.ImageUrl" alt="@newsItem.Title">
+                <div class="card-body">
+                    <h5 class="card-title">@newsItem.Title</h5>
+                    <p class="card-text">@newsItem.Content</p>
+                    <a asp-action="Update" asp-controller="Product" asp-route-id="@newsItem.NewsId"
+                       class="btn btn-primary">Edit</a>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+
+                        <div class="form-check form-switch">
+                            <input type="hidden" name="productId" value="@newsItem.NewsId" />
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Showcase</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

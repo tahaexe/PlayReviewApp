@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - Play Review Admin</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" asp-append-version="true">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css" asp-append-version="true">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" asp-append-version="true">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="~/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" asp-append-version="true">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="~/plugins/icheck-bootstrap/icheck-bootstrap.min.css" asp-append-version="true">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="~/plugins/jqvmap/jqvmap.min.css" asp-append-version="true">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css" asp-append-version="true">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="~/plugins/overlayScrollbars/css/OverlayScrollbars.min.css" asp-append-version="true">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="~/plugins/daterangepicker/daterangepicker.css" asp-append-version="true">
+    <!-- summernote -->
+    <link rel="stylesheet" href="~/plugins/summernote/summernote-bs4.min.css" asp-append-version="true">
+    <!-- CodeMirror -->
+    <link rel="stylesheet" href="../../plugins/codemirror/codemirror.css">
+    <link rel="stylesheet" href="../../plugins/codemirror/theme/monokai.css">
+    <!-- SimpleMDE -->
+    <link rel="stylesheet" href="../../plugins/simplemde/simplemde.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="~/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/plugins/datatables-responsive/css/responsive.bootstrap4.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/plugins/datatables-buttons/css/buttons.bootstrap4.min.css" asp-append-version="true">
+    <!-- Toastr -->
+    <link href="~/plugins/toastr/toastr.min.css" rel="stylesheet" asp-append-version="true" />
+
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader flex-column justify-content-center align-items-center">
+            <img class="animation__shake" src="~/images/Oyun-Gunlugu-LOGO.jpg" alt="OyunGunluguLogo" height="150" width="150">
+        </div>
+
+        <!-- Navbar -->
+        <partial name="_Navbar" />
+        @RenderSection("Navbar", false)
+        <!-- /.navbar End -->
+        <!-- Main Sidebar Container -->
+        <partial name="_Sidebar" />
+        @RenderSection("Sidebar", false)
+        <!-- /.Main Sidebar Container End -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <partial name="_Header" />
+            @RenderSection("Header", false)
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+                <!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Footer -->
+        @RenderSection("Footer", false)
+        <partial name="_Footer" />
+        <!-- Footer - End -->
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    
+    <!-- jQuery -->
+    <script src="~/plugins/jquery/jquery.min.js" asp-append-version="true"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="~/plugins/jquery-ui/jquery-ui.min.js" asp-append-version="true"></script>
+    <!-- Bootstrap 4 -->
+    <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
+    <!-- DataTables  & Plugins -->
+    <script src="~/plugins/datatables/jquery.dataTables.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-responsive/js/dataTables.responsive.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-responsive/js/responsive.bootstrap4.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-buttons/js/dataTables.buttons.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-buttons/js/buttons.bootstrap4.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/jszip/jszip.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/pdfmake/pdfmake.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/pdfmake/vfs_fonts.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-buttons/js/buttons.html5.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-buttons/js/buttons.print.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/datatables-buttons/js/buttons.colVis.min.js" asp-append-version="true"></script>
+    <!-- ChartJS -->
+    <script src="~/plugins/chart.js/Chart.min.js" asp-append-version="true"></script>
+    <!-- Sparkline -->
+    <script src="~/plugins/sparklines/sparkline.js" asp-append-version="true"></script>
+    <!-- JQVMap -->
+    <script src="~/plugins/jqvmap/jquery.vmap.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/jqvmap/maps/jquery.vmap.usa.js" asp-append-version="true"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="~/plugins/jquery-knob/jquery.knob.min.js" asp-append-version="true"></script>
+    <!-- daterangepicker -->
+    <script src="~/plugins/moment/moment.min.js" asp-append-version="true"></script>
+    <script src="~/plugins/daterangepicker/daterangepicker.js" asp-append-version="true"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="~/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js" asp-append-version="true"></script>
+    <!-- Summernote -->
+    <script src="~/plugins/summernote/summernote-bs4.min.js" asp-append-version="true"></script>
+    <!-- overlayScrollbars -->
+    <script src="~/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js" asp-append-version="true"></script>
+    <!-- AdminLTE App -->
+    <script src="~/dist/js/adminlte.min.js" asp-append-version="true"></script>
+    <!-- Toastr -->
+    <script src="~/plugins/toastr/toastr.min.js" asp-append-version="true"></script>
+
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+
+        $(document).ready(function () {
+                // Toastr için seçenekler
+                var toastOptions = {
+                    positionClass: 'toast-top-right',  // Konum: sağ üst köşe
+                    timeOut: 5000,  // Mesajın 5 saniye görünmesi
+                    closeButton: true,  // Kapama butonu eklemek
+                    progressBar: true  // İlerleme çubuğu göstermek
+                };
+
+                // TempData'dan gelen mesajı al
+                var toastData = '@TempData["ToastMessage"]';
+
+                // Mesaj varsa, türü ve mesajı ayır
+                if (toastData) {
+                    var parts = toastData.split(':');  // Mesajı ve türünü ayırmak için ':' kullanıyoruz
+
+                    if (parts.length === 2) {
+                        var messageType = parts[0].trim();  // Mesaj türünü alıyoruz (success, error, vs.)
+                        var message = parts[1].trim();  // Mesajı alıyoruz
+
+                        // Toastr ile mesajı göster
+                        toastr[messageType](message, '', toastOptions);  // success, error, info gibi türler
+                    }
+                }
+            });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
