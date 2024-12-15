@@ -1,0 +1,138 @@
+# Build Folders
+bin/
+obj/
+/obj/
+/bin/
+.vs/
+
+# .NET için derleme çıktıları
+**/bin/
+**/obj/
+*/bin/
+*/obj/
+
+# Belirli .NET versiyonlarına özgü dosyalar
+**/Debug/
+**/Release/
+
+# User-specific files
+.vs/
+.idea/
+.vscode/
+
+# User-specific files (Windows)
+Thumbs.db
+Desktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.log
+
+# Windows Installer directory
+windows/
+
+# Windows Installer package
+*.exe
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider IDE
+.idea/
+
+# ReSharper
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Microsoft Azure Web Apps
+*.publishsettings
+*.azurePubxml
+*.deployment
+
+# Node.js
+node_modules/
+
+# npm-debug.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Windows Installer Files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# User-specific files
+# macOS Finder
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Microsoft Visual Studio for Mac
+.vscode/
+
+# Windows Installer logs
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Temporary files
+*.swp
+*~
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Log files
+*.log
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test Results
+TestResults/
+
+# Microsoft Visual Studio for Mac
+.vscode/
+
+# Windows Installer Files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains IDEs
+.idea/
+
+# .NET Core, .NET 5, and ASP.NET Core
+.vscode/
+.idea/
+
+# Debug folder
+.vs/
+
+# Azure Web Apps
+*.azurePubxml
+*.publishsettings
+
+# Rider IDE
+.idea/
+
+# User-specific files
+.vsconfig
