@@ -1,11 +1,11 @@
-﻿@model IEnumerable<News>
+﻿@model IEnumerable<NewsDtoForGet>
 
 <div class="mt-5 text-center border-bottom">
     <h6 class="display-6">Products</h6>
 </div>
 
 <div class="row">
-    @foreach (News newsItem in Model)
+    @foreach (NewsDtoForGet newsItem in Model)
     {
         <div class="col-md-3 my-3">
             <div class="card" style="width: 18rem;">

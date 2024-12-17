@@ -1,4 +1,4 @@
-﻿@model List<News>
+﻿@model List<NewsDtoForGet>
 
 <div class="card">
     <div class="card-header">
@@ -26,7 +26,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (News newsData in Model)
+                @foreach (NewsDtoForGet newsData in Model)
                 {
                     <tr>
                         <td>@newsData?.Title</td>
