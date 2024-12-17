@@ -12,7 +12,8 @@ namespace PlayReviewApp.PlayReviewDb.Business.Abstract
     {
         List<NewsDtoForGet> GetAll();
         List<NewsDtoForGet> GetTopNews(int n);
-        NewsDtoForGet GetById(int id);
+        NewsDtoForGet GetById(int newsId);
+        NewsDtoForUpdate GetNewsForUpdate(int newsId);
         void Create(NewsDtoForCreate newsDtoForCreate);
         void Update(NewsDtoForUpdate newsDtoForUpdate);
         void Delete(int newsId);
