@@ -56,7 +56,6 @@ namespace PlayReviewApp.PlayReviewDb.Business.Concrete
             _newsDal.Update(news);
         }
 
-
         public void Delete(int newsId)
         {
             if (newsId <= 0)  // NewsId'nin sıfırdan küçük olması zaten geçersiz olmalı
@@ -97,6 +96,15 @@ namespace PlayReviewApp.PlayReviewDb.Business.Concrete
 
             // AutoMapper ile News nesnelerini NewsDtoForGet'e dönüştürmek
             return _mapper.Map<List<NewsDtoForGet>>(newsList);
+        }
+
+        public NewsDtoForUpdate GetNewsForUpdate(int newsId)
+        {
+            var news = _newsDal.Get(n => n.NewsId == newsId);
+
+            if (news == null) throw new KeyNotFoundException($"News with ID {newsId} not found.");
+
+            return _mapper.Map<NewsDtoForUpdate>(news);
         }
     }
 }
