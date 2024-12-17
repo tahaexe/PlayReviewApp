@@ -81,7 +81,7 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
         [Authorize(Roles = "Admin")]
         public IActionResult Update([FromRoute(Name = "id")] int newsId)
         {
-            var news = _serviceManager.NewsManager.GetById(newsId);
+            var news = _serviceManager.NewsManager.GetNewsForUpdate(newsId);
 
             return View(news);
         }
