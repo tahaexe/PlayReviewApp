@@ -32,14 +32,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapAreaControllerRoute(
-    name: "Admin",
-    areaName: "Admin",
-    pattern: "Admin/{controller=Dasboard}/{action=index}/{id?}");
-
-app.MapControllerRoute(
-    name: "Home",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.ConfigureRouting();
 
 app.MapControllers();
 app.MapRazorPages();
