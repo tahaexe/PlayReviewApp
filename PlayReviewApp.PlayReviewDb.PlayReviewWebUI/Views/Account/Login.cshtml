@@ -7,7 +7,7 @@
             <form method="post" asp-action="Login" class="mx-auto" style="max-width: 350px;">
                 <h3 class="fw-normal mb-3 pb-3 text-center" style="letter-spacing: 1px;">
                     <i class="fa-solid fa-user"></i>
-                    Log in
+                    Giriş Yap
                 </h3>
                 <div>
                     <!-- Genel Hata Mesajları -->
@@ -29,12 +29,12 @@
                 <div class="pt-1 mb-4">
                     <button type="submit" class="btn btn-info btn-lg w-100">
                         <i class="fa-solid fa-unlock"></i>
-                        Login
+                        Giriş Yap
                     </button>
                 </div>
 
-                <p class="small mb-5 pb-lg-2 text-center"><a class="text-muted" href="#!">Forgot password?</a></p>
-                <p>Don't have an account? <a asp-action="Register" class="link-info">Register here</a></p>
+                @* <p class="small mb-5 pb-lg-2 text-center"><a class="text-muted" href="#!">Forgot password?</a></p> *@
+                <p class="text-center">Bir hesabın yokmu? <a asp-action="Register" class="link-info">Kayıt ol</a></p>
             </form>
         </div>
     </div>

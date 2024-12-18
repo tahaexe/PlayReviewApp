@@ -7,161 +7,162 @@
     </h3>
 
     <h1>@Model.StatusCode</h1>
-@*     <p>@Model.RequestId</p> *@
+    @*     <p>@Model.RequestId</p> *@
 
     <div>
         @switch (Model.StatusCode)
         {
             case 400:
-                <h2>Bad Request</h2>
-                <p>The request could not be understood or was missing required parameters.</p>
+                <h2>Geçersiz İstek</h2>
+                <p>İstek anlaşılamadı veya gerekli parametreler eksik.</p>
                 break;
             case 401:
-                <h2>Unauthorized</h2>
-                <p>You need to authenticate to access this resource.</p>
+                <h2>Yetkisiz</h2>
+                <p>Bu kaynağa erişim için kimlik doğrulaması yapmanız gerekiyor.</p>
                 break;
             case 403:
-                <h2>Forbidden</h2>
-                <p>You do not have permission to access this resource.</p>
+                <h2>Erişim Yasak</h2>
+                <p>Bu kaynağa erişim izniniz yok.</p>
                 break;
             case 404:
-                <h2>Page Not Found</h2>
-                <p>The page you are looking for could not be found.</p>
+                <h2>Sayfa Bulunamadı</h2>
+                <p>Aradığınız sayfa bulunamadı.</p>
                 break;
             case 405:
-                <h2>Method Not Allowed</h2>
-                <p>The HTTP method used is not allowed for this resource.</p>
+                <h2>Yöntem İzin Verilmiyor</h2>
+                <p>Kullanılan HTTP yöntemi bu kaynak için izinli değil.</p>
                 break;
             case 406:
-                <h2>Not Acceptable</h2>
-                <p>The resource is not capable of generating content acceptable according to the Accept headers sent in the request.</p>
+                <h2>Kabul Edilemez</h2>
+                <p>İstek başlıklarına göre uygun içerik üretilemiyor.</p>
                 break;
             case 407:
-                <h2>Proxy Authentication Required</h2>
-                <p>Authentication with a proxy server is required.</p>
+                <h2>Proxy Kimlik Doğrulaması Gerekli</h2>
+                <p>Bir proxy sunucusuyla kimlik doğrulaması yapmanız gerekiyor.</p>
                 break;
             case 408:
-                <h2>Request Timeout</h2>
-                <p>The server timed out waiting for the request.</p>
+                <h2>İstek Zaman Aşımı</h2>
+                <p>Sunucu isteği beklerken zaman aşımına uğradı.</p>
                 break;
             case 409:
-                <h2>Conflict</h2>
-                <p>The request could not be completed due to a conflict with the current state of the target resource.</p>
+                <h2>Çakışma</h2>
+                <p>Hedef kaynağın mevcut durumu nedeniyle istek tamamlanamadı.</p>
                 break;
             case 410:
-                <h2>Gone</h2>
-                <p>The resource requested is no longer available and will not be available again.</p>
+                <h2>Kayıp</h2>
+                <p>İstenen kaynak artık mevcut değil ve bir daha erişilemeyecek.</p>
                 break;
             case 411:
-                <h2>Length Required</h2>
-                <p>The request did not specify the length of its content, which is required by the resource.</p>
+                <h2>Uzunluk Gerekli</h2>
+                <p>İstek içeriğinin uzunluğu belirtilmemiş, bu kaynak için gerekli.</p>
                 break;
             case 412:
-                <h2>Precondition Failed</h2>
-                <p>The server does not meet one of the preconditions specified by the client in the request.</p>
+                <h2>Ön Koşul Başarısız</h2>
+                <p>Sunucu, istekte belirtilen ön koşullardan birini karşılamıyor.</p>
                 break;
             case 413:
-                <h2>Payload Too Large</h2>
-                <p>The request is larger than the server is willing or able to process.</p>
+                <h2>Yük Çok Büyük</h2>
+                <p>İstek, sunucunun işleyebileceğinden daha büyük.</p>
                 break;
             case 414:
-                <h2>URI Too Long</h2>
-                <p>The URI provided was too long for the server to process.</p>
+                <h2>URI Çok Uzun</h2>
+                <p>Sağlanan URI, sunucunun işleyemeyeceği kadar uzun.</p>
                 break;
             case 415:
-                <h2>Unsupported Media Type</h2>
-                <p>The request entity has a media type which the server or resource does not support.</p>
+                <h2>Desteklenmeyen Medya Türü</h2>
+                <p>İstek verisinin medya türü sunucu veya kaynak tarafından desteklenmiyor.</p>
                 break;
             case 416:
-                <h2>Range Not Satisfiable</h2>
-                <p>The client has asked for a portion of the file, but the server cannot supply that portion.</p>
+                <h2>Aralık Karşılanamaz</h2>
+                <p>İstemci dosyanın bir bölümünü talep etti, ancak sunucu bu bölümü sağlayamıyor.</p>
                 break;
             case 417:
-                <h2>Expectation Failed</h2>
-                <p>The server cannot meet the requirements of the Expect request-header field.</p>
+                <h2>Beklenti Başarısız</h2>
+                <p>Sunucu, Expect başlık alanındaki gereksinimleri karşılayamıyor.</p>
                 break;
             case 418:
-                <h2>I'm a teapot</h2>
-                <p>This is an April Fools' joke from RFC 2324. The teapot refuses to brew coffee because it is a teapot.</p>
+                <h2>Ben Bir Demlik</h2>
+                <p>Bu, RFC 2324'ten bir 1 Nisan şakasıdır. Demlik, kahve yapmayı reddediyor çünkü bir demliktir.</p>
                 break;
             case 419:
-                <h2>Authentication Timeout</h2>
-                <p>Your session has expired. Please log in again.</p>
+                <h2>Kimlik Doğrulama Zaman Aşımı</h2>
+                <p>Oturumunuz sona erdi. Lütfen tekrar giriş yapın.</p>
                 break;
             case 420:
-                <h2>Enhance Your Calm</h2>
-                <p>You are being rate-limited due to sending too many requests in a short amount of time.</p>
+                <h2>Sakinleşin</h2>
+                <p>Kısa sürede çok fazla istek gönderdiğiniz için hızınız kısıtlandı.</p>
                 break;
             case 421:
-                <h2>Misdirected Request</h2>
-                <p>The request was directed to a server that is not able to produce a response.</p>
+                <h2>Yanlış Yönlendirilmiş İstek</h2>
+                <p>İstek, yanıt üretemeyecek bir sunucuya yönlendirildi.</p>
                 break;
             case 422:
-                <h2>Unprocessable Entity</h2>
-                <p>The request was well-formed, but the server was unable to process it due to semantic errors.</p>
+                <h2>İşlenemeyen Varlık</h2>
+                <p>İstek doğru biçimlendirilmiş, ancak sunucu anlamsal hatalardan dolayı işleyemiyor.</p>
                 break;
             case 423:
-                <h2>Locked</h2>
-                <p>The resource that is being accessed is locked.</p>
+                <h2>Kilitli</h2>
+                <p>Erişilen kaynak kilitli durumda.</p>
                 break;
             case 424:
-                <h2>Failed Dependency</h2>
-                <p>The request failed due to failure of a previous request.</p>
+                <h2>Bağımlılık Başarısız</h2>
+                <p>İstek, önceki bir isteğin başarısız olması nedeniyle başarısız oldu.</p>
                 break;
             case 425:
-                <h2>Too Early</h2>
-                <p>The server is unwilling to risk processing a request that might be replayed.</p>
+                <h2>Çok Erken</h2>
+                <p>Sunucu, yeniden oynatılabilecek bir isteği işleme riski almak istemiyor.</p>
                 break;
             case 426:
-                <h2>Upgrade Required</h2>
-                <p>The client should switch to a different protocol as indicated by the server.</p>
+                <h2>Yükseltme Gerekli</h2>
+                <p>İstemci, sunucunun belirttiği başka bir protokole geçmelidir.</p>
                 break;
             case 427:
-                <h2>Unassigned</h2>
-                <p>Reserved for future use.</p>
+                <h2>Atanmamış</h2>
+                <p>Gelecekte kullanılmak üzere ayrılmıştır.</p>
                 break;
             case 428:
-                <h2>Precondition Required</h2>
-                <p>The server requires the request to be conditional.</p>
+                <h2>Ön Koşul Gerekli</h2>
+                <p>Sunucu, isteğin koşullu olmasını gerektiriyor.</p>
                 break;
             case 429:
-                <h2>Too Many Requests</h2>
-                <p>You have sent too many requests in a given amount of time.</p>
+                <h2>Çok Fazla İstek</h2>
+                <p>Kısa bir sürede çok fazla istek gönderdiniz.</p>
                 break;
             case 431:
-                <h2>Request Header Fields Too Large</h2>
-                <p>The request is too large for the server to handle due to the size of the headers.</p>
+                <h2>İstek Başlık Alanları Çok Büyük</h2>
+                <p>İstek, başlıkların boyutu nedeniyle sunucunun işleyemeyeceği kadar büyük.</p>
                 break;
             case 451:
-                <h2>Unavailable For Legal Reasons</h2>
-                <p>The resource is unavailable due to legal restrictions.</p>
+                <h2>Yasal Nedenlerle Kullanılamıyor</h2>
+                <p>Kaynak, yasal kısıtlamalar nedeniyle kullanılamıyor.</p>
                 break;
             case 500:
-                <h2>Internal Server Error</h2>
-                <p>An unexpected error occurred on the server.</p>
+                <h2>Sunucu Hatası</h2>
+                <p>Sunucuda beklenmeyen bir hata oluştu.</p>
                 break;
             case 501:
-                <h2>Not Implemented</h2>
-                <p>The server does not support the functionality required to fulfill the request.</p>
+                <h2>Uygulanmadı</h2>
+                <p>Sunucu, isteği yerine getirmek için gerekli işlevselliği desteklemiyor.</p>
                 break;
             case 502:
-                <h2>Bad Gateway</h2>
-                <p>The server received an invalid response from the upstream server.</p>
+                <h2>Geçersiz Ağ Geçidi</h2>
+                <p>Sunucu, üst sunucudan geçersiz bir yanıt aldı.</p>
                 break;
             case 503:
-                <h2>Service Unavailable</h2>
-                <p>The server is currently unable to handle the request due to temporary overloading or maintenance.</p>
+                <h2>Hizmet Kullanılamıyor</h2>
+                <p>Sunucu, geçici aşırı yüklenme veya bakım nedeniyle isteği işleyemiyor.</p>
                 break;
             case 504:
-                <h2>Gateway Timeout</h2>
-                <p>The server did not receive a timely response from the upstream server or some other auxiliary server it needed to access.</p>
+                <h2>Ağ Geçidi Zaman Aşımı</h2>
+                <p>Sunucu, üst sunucudan zamanında yanıt alamadı.</p>
                 break;
             default:
-                <h2>Error</h2>
-                <p>An unexpected error occurred.</p>
+                <h2>Hata</h2>
+                <p>Beklenmeyen bir hata oluştu.</p>
                 break;
         }
     </div>
+
 </div>
 
 @* @if (Model.ShowRequestId)

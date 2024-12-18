@@ -1,28 +1,28 @@
 ﻿@model List<NewsDtoForGet>
 
 <div class="card">
-    <div class="card-header">
-        <h3 class="card-title">News</h3>
-    </div>
+    <!-- /.card-header -->
+    <div class="card-body">
 
-    <div class="d-flex justify-content-start my-3 ml-3 ">
+        <h2>Haberler</h2>
+        <hr />
         <div class="btn-group ">
             <a class="btn btn-outline-success " asp-area="Admin" asp-controller="News" asp-action="Create">
                 <i class="fa fa-solid fa-plus"></i>
-                Create News
+                Yeni Haber
             </a>
         </div>
-    </div>
 
-    <!-- /.card-header -->
-    <div class="card-body">
+        <br />
+        <br />
+
         <table id="NewsTable" class="table table-bordered table-striped">
             <thead>
                 <tr>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>Author</th>
-                    <th>Operations</th>
+                    <th>Başlık</th>
+                    <th>Açıklama</th>
+                    <th>Yazar</th>
+                    <th>İşlemler</th>
                 </tr>
             </thead>
             <tbody>
@@ -37,20 +37,20 @@
                         <td>
                             <div class="btn-group text-center">
 
-                                <a class="btn btn-warning rounded-0" asp-action="Update" asp-route-id="@newsData?.NewsId">
-                                    <i class="fa fa-solid fa-pen text-white"></i>
-                                    Update
+                                <a class="btn btn-warning rounded-0  text-white" asp-action="Update" asp-route-id="@newsData?.NewsId">
+                                    <i class="fa fa-solid fa-pen"></i>
+                                    Güncelle
                                 </a>
 
                                 <a class="btn btn-info rounded-0" asp-area="" asp-controller="News" asp-action="Get" asp-route-id="@newsData?.NewsId">
                                     <i class="fa fa-solid fa-eye"></i>
-                                    Details
+                                    Detaylar
                                 </a>
 
                                 <a class="btn btn-danger rounded-0" asp-action="Delete" asp-route-id="@newsData?.NewsId"
                                    onclick="return confirmDelete()">
                                     <i class="fa fa-solid fa-trash"></i>
-                                    Delete
+                                    Sil
                                 </a>
 
                             </div>

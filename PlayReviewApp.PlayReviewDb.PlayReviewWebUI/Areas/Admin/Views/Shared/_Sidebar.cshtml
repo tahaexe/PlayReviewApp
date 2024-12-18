@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a asp-area="Admin" asp-controller="Dasboard" asp-action="Index" class="brand-link">
         <img src="~/Images/Oyun-Gunlugu-LOGO.jpg" alt="Oyun Gunlugu Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Admin Panel</span>
+        <span class="brand-text font-weight-light">Admin Paneli</span>
     </a>
 
     <!-- Sidebar -->
@@ -36,7 +36,7 @@
                     <a asp-area="Admin" asp-controller="News" asp-action="Index" class="nav-link">
                         <i class="fa fa-newspaper"></i>
                         <p>
-                            News
+                            Haberler
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -44,13 +44,37 @@
                         <li class="nav-item">
                             <a asp-area="Admin" asp-controller="News" asp-action="Index" class="nav-link">
                                 <i class="fa fa-list nav-icon"></i>
-                                <p>List</p>
+                                <p>Haber listesi</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a asp-area="Admin" asp-controller="News" asp-action="Create" class="nav-link">
                                 <i class="fa fa-plus nav-icon"></i>
-                                <p>Create</p>
+                                <p>Yeni Haber</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="nav-link">
+                        <i class="fa-solid fa-table-list"></i>
+                        <p>
+                            Kategoriler
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="nav-link">
+                                <i class="fa fa-list nav-icon"></i>
+                                <p>Kategori listesi</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-area="Admin" asp-controller="Category" asp-action="Create" class="nav-link">
+                                <i class="fa fa-plus nav-icon"></i>
+                                <p>Yeni Kategori</p>
                             </a>
                         </li>
                     </ul>
@@ -58,18 +82,9 @@
 
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="fa fa-solid fa-list"></i>
-                        <p>
-                            Category
-                            @* <span class="right badge badge-danger">New</span> *@
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
                         <i class="fa fa-solid fa-user"></i>
                         <p>
-                            User
+                            Kullanıcılar
                             @* <span class="right badge badge-danger">New</span> *@
                         </p>
                     </a>

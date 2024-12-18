@@ -4,7 +4,7 @@
     <h6 class="display-6">
         <i class="fa-solid fa-user-plus text-white bg-secondary p-3 rounded-2"></i>
         <br>
-        Register
+        Kayıt ol
     </h6>
 </div>
 
@@ -20,23 +20,23 @@
         <form method="post" asp-action="Register">
 
             <div class=" form-group my-3">
-                <label asp-for="UserName"></label>
+                <label asp-for="UserName">Kullanıcı Adı</label>
                 <input asp-for="UserName" class="form-control" />
             </div>
 
             <div class=" form-group my-3">
-                <label asp-for="Email"></label>
+                <label asp-for="Email">Email</label>
                 <input asp-for="Email" class="form-control" />
             </div>
 
             <div class=" form-group my-3">
-                <label asp-for="Password"></label>
+                <label asp-for="Password">Password</label>
                 <input type="password" asp-for="Password" class="form-control" />
             </div>
             <div class=" form-group my-3 d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary">
                     <i class="fa-solid fa-user-plus"></i>
-                    Register
+                    Kayıt ol
                 </button>
             </div>
         </form>
