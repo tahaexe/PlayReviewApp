@@ -13,6 +13,6 @@ namespace PlayReviewApp.PlayReviewDb.Business.Abstract
             Category GetById(int id);
             void Add(Category category);
             void Update(Category category);
-            void Delete(Category category);
+            void Delete(int categoryId);
       }
 }
