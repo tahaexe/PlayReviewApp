@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<NewsDtoForGet>
 
 <div class="mt-5 text-center border-bottom">
-    <h6 class="display-6">Products</h6>
+    <h6 class="display-6">Haberler</h6>
 </div>
 
 <div class="row">
@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">@newsItem.Title</h5>
                     <p class="card-text">@newsItem.Content</p>
-                    <a asp-action="Update" asp-controller="Product" asp-route-id="@newsItem.NewsId"
+                    <a asp-action="Update" asp-controller="News" asp-route-id="@newsItem.NewsId"
                        class="btn btn-primary">Edit</a>
                 </div>
                 <div class="card-footer">
