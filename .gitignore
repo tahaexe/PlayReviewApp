@@ -136,5 +136,5 @@ TestResults/
 
 # User-specific files
 .vsconfig
-PlayReviewApp.PlayReviewDb.PlayReviewWebUI/appsettings.json
+appsettings.json
 PlayReviewApp.PlayReviewDb.PlayReviewWebUI/appsettings.json
