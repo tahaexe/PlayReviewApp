@@ -17,7 +17,7 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
         }
 
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Index()
         {
             var allNews = _serviceManager.NewsManager.GetAll();
@@ -25,14 +25,14 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
         }
 
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Create()
         {
             return View();
         }
 
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([FromForm] NewsDtoForCreate newsDtoForCreate, IFormFile? file)
@@ -78,7 +78,7 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
         }
 
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Update([FromRoute(Name = "id")] int newsId)
         {
             var news = _serviceManager.NewsManager.GetNewsForUpdate(newsId);
@@ -87,7 +87,7 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
         }
 
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update([FromForm] NewsDtoForUpdate newsDtoForUpdate, IFormFile? file)
@@ -133,7 +133,7 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
         }
 
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Delete([FromRoute(Name = "id")] int newsId)
         {
             _serviceManager.NewsManager.Delete(newsId);
