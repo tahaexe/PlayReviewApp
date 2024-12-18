@@ -138,3 +138,4 @@ TestResults/
 .vsconfig
 appsettings.json
 PlayReviewApp.PlayReviewDb.PlayReviewWebUI/appsettings.json
+PlayReviewApp.PlayReviewDb.PlayReviewWebUI\Properties\PublishProfiles
