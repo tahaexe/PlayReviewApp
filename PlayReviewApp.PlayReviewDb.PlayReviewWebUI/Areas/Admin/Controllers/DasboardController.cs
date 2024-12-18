@@ -6,7 +6,7 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Areas.Admin.Controllers
     public class DasboardController : Controller
     {
         [Area("Admin")]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Index()
         {
             return View();
