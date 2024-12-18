@@ -7,7 +7,7 @@
     </h3>
 
     <h1>@Model.StatusCode</h1>
-    <p>@Model.RequestId</p>
+@*     <p>@Model.RequestId</p> *@
 
     <div>
         @switch (Model.StatusCode)
@@ -164,14 +164,14 @@
     </div>
 </div>
 
-@if (Model.ShowRequestId)
+@* @if (Model.ShowRequestId)
 {
     <p>
         <strong>Request ID:</strong> <code>@Model.RequestId</code> <!-- Hata ID'si -->
     </p>
-}
+} *@
 
-<h3>Development Mode</h3>
+@* <h3>Development Mode</h3>
 <p>
     Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
 </p>
@@ -180,4 +180,4 @@
     It can result in displaying sensitive information from exceptions to end users.
     For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
     and restarting the app.
-</p>
+</p> *@
