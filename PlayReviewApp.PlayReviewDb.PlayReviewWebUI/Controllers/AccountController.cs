@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PlayReviewApp.PlayReviewDb.Business.Abstract;
@@ -87,28 +88,63 @@ namespace PlayReviewApp.PlayReviewDb.PlayReviewWebUI.Controllers
                     Email = model.Email
                 };
 
+                // Kullanıcıyı oluştur
                 var result = await _serviceManager.AuthManager.UserManager.CreateAsync(newUser, model.Password);
 
                 if (result.Succeeded)
                 {
-                    var roleResult = await _serviceManager.AuthManager.UserManager.AddToRoleAsync(newUser, "user6");
+                    // Kullanıcı oluşturulduysa, ROLE ekle
+                    string userRole = "USER";
+
+                    // Rolün var olup olmadığını kontrol et
+                    var roleExist = await _serviceManager.AuthManager.RoleManager.RoleExistsAsync(userRole);
+
+                    if (!roleExist)
+                    {
+                        // Rol yoksa, rolü oluştur
+                        var createRoleResult = await _serviceManager.AuthManager.RoleManager.CreateAsync(new IdentityRole(userRole));
+
+                        if (!createRoleResult.Succeeded)
+                        {
+                            // Eğer rol oluşturulamazsa, hata mesajını ekle
+                            foreach (var error in createRoleResult.Errors)
+                            {
+                                ModelState.AddModelError("", "Rol oluşturulamadı");
+                            }
+                            return View(model); // Hata ile geri dön
+                        }
+                    }
+
+                    // Kullanıcıyı role ekle
+                    var roleResult = await _serviceManager.AuthManager.UserManager.AddToRoleAsync(newUser, userRole);
 
                     if (roleResult.Succeeded)
                     {
-                        return RedirectToAction("Login");
+                        return RedirectToAction("Login"); // Başarıyla giriş sayfasına yönlendir
+                    }
+                    else
+                    {
+                        // Kullanıcıyı role eklerken hata olursa, hata mesajı ekle
+                        foreach (var error in roleResult.Errors)
+                        {
+                            ModelState.AddModelError("", "Rol ataması başarısız");
+                        }
                     }
                 }
                 else
                 {
+                    // Kullanıcı oluşturulamazsa hata mesajlarını ekle
                     foreach (var item in result.Errors)
                     {
-                        ModelState.AddModelError("", item.Description);
+                        ModelState.AddModelError("", "User can't create.");
                     }
                 }
             }
 
-            return View();
+            // Eğer model geçerli değilse veya hata varsa, tekrar formu göster
+            return View(model);
         }
+
 
         [Authorize]
         public async Task<IActionResult> Profile()
