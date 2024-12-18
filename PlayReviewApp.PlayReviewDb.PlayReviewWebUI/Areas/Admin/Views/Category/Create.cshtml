@@ -1,0 +1,46 @@
+﻿@model Category
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-12">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Kategori Oluştur</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form method="post" asp-action="Create" enctype="multipart/form-data">
+
+                        <br>
+                        <div class="text-danger" asp-validation-summary="All"> </div>
+
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label asp-for="Name">Kategori Adı</label>
+                                <input asp-for="Name" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="Description">Kategori Açıklaması</label>
+                                <input asp-for="Description" class="form-control">
+                            </div>
+
+                        </div>
+                        <!-- /.card-body -->
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Kategori Oluştur</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card -->
+
+            </div>
+            <!--/.col (left) -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
