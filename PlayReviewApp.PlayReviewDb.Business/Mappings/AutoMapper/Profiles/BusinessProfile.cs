@@ -21,7 +21,7 @@ namespace PlayReviewApp.PlayReviewDb.Business.Mappings.AutoMapper.Profiles
 
             CreateMap<News, NewsDtoForGet>();
 
-            CreateMap<News, NewsDtoForCreate>();
+            CreateMap<NewsDtoForCreate, News>();
         }
     }
 }
